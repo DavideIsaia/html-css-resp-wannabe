@@ -83,10 +83,11 @@ img {
 
   html {
     font-size: 1.6rem;
+    background-color: #4299e6;
   }
 
   .container.grey {
-    background-color: bisque;
+    background-color: transparent; 
   }  
 }
 
