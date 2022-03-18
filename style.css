@@ -72,6 +72,7 @@ img {
   clear: both;
 }
 
+/* PER SMARTPHONE */
 @media screen and (max-width: 419px) {
 
   * {
@@ -81,13 +82,19 @@ img {
   }
 
   html {
-    font-size: 2rem;
+    font-size: 2.2rem;
     background-color: rgb(70, 70, 70);
+    color: white;
+    margin: 0.2rem;
+  }
+
+  .container.grey {
+    background-color: rgb(70, 70, 70);  
   }
 
   .row {
+    margin: 1rem 0.2rem;
     background-color: rgb(70, 70, 70);
-    color: white;
   }
 
   h1 {
@@ -102,7 +109,6 @@ img {
   #lezioni .row>.left,
   #lezioni .row>.right {
   width: 100%;
-  margin-top: 1rem;
   }
 
   /* BLOCCO STEPS */
@@ -115,4 +121,9 @@ img {
   #steps .row {
     background-color: rgb(39, 39, 39);
   }
+
+  #steps img {
+    margin: 1.2rem auto 0;
+  }
+
 }
