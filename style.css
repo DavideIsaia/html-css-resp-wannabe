@@ -72,6 +72,25 @@ img {
   clear: both;
 }
 
+/* PER TABLET */
+@media screen and (max-width: 820px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: 1.6rem;
+  }
+
+  .container.grey {
+    background-color: transparent;
+  }  
+}
+
+
 /* PER SMARTPHONE */
 @media screen and (max-width: 419px) {
 
