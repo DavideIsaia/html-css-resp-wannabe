@@ -127,8 +127,8 @@ img {
 
   img {
     height: auto;
-    width: 50%;
-    margin: 1.2rem auto 0;
+    width: 40%;
+    margin: 1rem auto 0.1rem;
   }
 
   /* BLOCCO LEZIONI */
@@ -146,5 +146,12 @@ img {
 
   #steps .row {
     background-color: rgb(39, 39, 39);
+  }
+
+  /* BLOCCO PERCHE */
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    margin-top: 0.2rem;
   }
 }
